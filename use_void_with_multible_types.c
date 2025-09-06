@@ -16,6 +16,8 @@ int main(){
 
     printf("Value of p after casting to float again: %f\n", (float) *(int*)p);
 
+    free(p);
+
     return 0;
 
 }
